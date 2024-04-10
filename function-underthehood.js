@@ -25,3 +25,10 @@ console.log(obj2); // will give global Object as an output when return this keyw
 //3. it gives this keyword reference to this newly created empty {} object
 //4. it executes the function it has used to create new object.
 
+// Difference between function and classes
+
+//1. we can not create objects without new keyword in classes but if we don't give new keyword in function it will behave as a normal function
+
+//2. classes are just a syntactical sugar on functions, under the hood functions are getting used.
+
+//3. classes introduces to make it consistent with other programming languages
