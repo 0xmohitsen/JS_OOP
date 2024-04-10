@@ -36,7 +36,6 @@ class Product {
 
 // object creation
 const product1 = new Product("Iphone", 120000);
-
 console.log(product1);
 
 // to access the member functions use dot(.) operator
