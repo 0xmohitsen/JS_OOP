@@ -1,9 +1,14 @@
 function Product(name) {
     this.name = name;
+
+    this.display = function () {
+        console.log(this.name);
+    }
 }
 
 const obj1 = new Product("Ipad");
 console.log(obj1); // returns this is written or not it will return the object whom this keyword is referencing
+obj1.display(); // output :- Ipad
 
 // but if there is another object rather than this ( return this)
 
