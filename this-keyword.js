@@ -26,7 +26,7 @@ console.log(obj2); // it will print { name: 'boat-watch' }
 function Product3(name) {
     this.name = name;
 
-    return 10;
+    return 10; // returns non-object value
 }
 
 const obj3 = new Product3("Ipod");
