@@ -18,9 +18,10 @@ obj1.show(); // output :- { name: 'Mohit', age: 25, display: [Function: display]
 
 let obj2 = {
     name: "Krishna",
-    agr: 25,
+    age: 25,
     display: () => {
-        console.log(`${this.name} is ${this.agr} years old`);
+        // when we use arrow function this keyword resolves by lexical scoping.
+        console.log(`${this.name} is ${this.age} years old`);
     },
     show: () => {
         console.log(this);
